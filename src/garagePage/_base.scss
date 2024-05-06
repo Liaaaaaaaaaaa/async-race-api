@@ -1,0 +1,63 @@
+.wrapper__div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px  15px;
+
+}
+
+.button {
+  background: rgb(198, 236, 197);
+  min-width: 100px;
+  height: 50px;
+}
+
+
+.selectPage {
+  display: flex;
+  gap: 10px;
+}
+
+.createCar {
+  display: flex;
+  gap: 15px;
+}
+
+.input {
+  width: 200px;
+  height: 50px;
+}
+
+// inputNameCar
+// .inputColorCar {
+// }
+
+.garage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  // background: url('images/3215644.svg');
+}
+
+.title-garage {
+  display: flex;
+}
+
+.roadCarBlock {
+  border-bottom : 2px  dashed #000000;
+
+}
+
+.roadCar {
+  display: block;
+  width: 100px;
+  height: 50px;
+  margin-bottom: -6px;
+}
+
+.imgCar {
+  width: 100px;
+  height: 50px;
+  background: url('images/3215644.svg');
+}
